@@ -1,0 +1,47 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:id="@+id/map"
+            tools:context="com.example.eduar_000.myapplication.Police_Activity"
+            android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="call"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/call"
+            android:textSize="35dp"
+            android:background="@drawable/ligar"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/baseProgressBar"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="#eaebe9"
+        android:alpha="0.7">
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

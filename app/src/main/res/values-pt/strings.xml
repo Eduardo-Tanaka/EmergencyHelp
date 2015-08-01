@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Emergency Helper</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">Emergency Help</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="call">Ligar</string>
+    <string name="title_activity_police_">Map</string>
+    <string name="title_activity_hospital_">Map</string>
+    <string name="title_activity_fire_man">Map</string>
+    <string name="title_activity_pharmacy_">Map</string>
+    <string name="portuguese">Português</string>
+    <string name="english">Inglês</string>
+    <string name="title_activity_ambulance_">Ambulance_Activity</string>
+    <string name="hint">Dicas</string>
+    <string name="hint1">Mantenha a calma... Pense!</string>
+    <string name="hint2">Não mexa na vítima</string>
+    <string name="hint3">Estabeleça comunicação com a vitima (Nome, Onde está, Dia)</string>
+    <string name="hint4">Tente acalmá-la</string>
+    <string name="hint5">Visualizar fatores de respiração</string>
+    <string name="hint6">Não se aproximar do fogo </string>
+
+
+
+
+
+</resources>
